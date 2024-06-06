@@ -1,3 +1,4 @@
-import TicketBot from "./TicketBot";
+export const testFunction =  ()  =>{
+	console.log(foo);
+}
 
-export default TicketBot;
