@@ -1,7 +1,3 @@
-import TicketBot from "./TicketBot";
-
-export const testFunction = () => {
-  console.log("Hola mundo es TicketBot");
-};
+import TicketBot from "./components/TicketBot";
 
 export default TicketBot;
