@@ -14,10 +14,6 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "prettier": "^3.3.1",
-    "@babel/preset-env": "^7.24.7",
-    "@babel/preset-react": "^7.24.7",
-    "@babel/plugin-transform-react-jsx": "^7.24.7",
-    "babel-cli": "^6.26.0"
+    "prettier": "^3.3.1"
   }
 }
