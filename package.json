@@ -1,8 +1,8 @@
 {
   "name": "ticket-atc-bot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "main.js",
+  "main": "main.mjs",
   "scripts": {
     "build": "echo \"Error: no test specified\" && exit 1"
   },
