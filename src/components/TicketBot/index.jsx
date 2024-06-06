@@ -26,7 +26,7 @@ const TicketBot = () => {
           </div>
         </div>
 
-        <div style="content">{message}</div>
+        <div className="content">{message}</div>
       </div>
     </div>
   ) : (
