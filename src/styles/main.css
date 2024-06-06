@@ -1,8 +1,8 @@
 .container {
   width: 60px;
   height: 60px;
-  position: absolute; 
-  bottom: 10px; 
+  position: absolute;
+  bottom: 10px;
   right: 10px;
   border-radius: 50%;
   background: white;
@@ -14,15 +14,15 @@
 .panel {
   width: 400px;
   height: 600px;
-  position: absolute; 
-  bottom: 10px; 
+  position: absolute;
+  bottom: 10px;
   right: 10px;
   border-radius: 5px;
   background: white;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  z-index: 1000; 
+  z-index: 1000;
   color: black;
 }
 
@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px
+  padding: 10px;
 }
 
 .panelClose {
