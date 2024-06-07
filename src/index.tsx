@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import DefaultIcon from "./DefaultIcon";
 import { connectionHandler } from "./services/api.js";
-// import "./styles.module.css";
 import styles from "./styles.module.css";
 
 const TicketBot = () => {
@@ -16,25 +15,6 @@ const TicketBot = () => {
   useEffect(() => {
     readMessage();
   }, []);
-
-  // return showPanel ? (
-  // <div className="panel">
-  // <div className="panelContainer">
-  // <div className="panelHeader">
-  // <strong>Ticket Bot</strong>
-  // <div className="panelClose" onClick={() => setShowPanel(false)}>
-  // Cerrar
-  // </div>
-  // </div>
-
-  // <div className="content">{message}</div>
-  // </div>
-  // </div>
-  // ) : (
-  // <div className="container" onClick={() => setShowPanel(true)}>
-  // <DefaultIcon />
-  // </div>
-  // );
 
   return showPanel ? (
     <div className={styles.panel}>
