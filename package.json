@@ -2,18 +2,39 @@
   "name": "ticket-atc-bot",
   "version": "1.0.9",
   "description": "",
-  "main": "src/main.js",
-  "module": "src/main.js",
+  "main": "./main.mjs",
+  "module": "./main.mjs",
   "scripts": {
-    "build": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production",
+    "prepublish": "rm -rf ./dist && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.3.1"
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "prettier": "^3.3.1"
+    "prettier": "^3.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/plugin-syntax-jsx": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0"
+  },
+  "browser": {
+    ".": "."
   }
 }
