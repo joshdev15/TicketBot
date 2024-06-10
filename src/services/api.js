@@ -1,4 +1,4 @@
-const serverURL = "http://localhost:8080/";
+const serverURL = "https://tatcbot-backend-production.up.railway.app/";
 
 export const connectionHandler = async () => {
   try {
